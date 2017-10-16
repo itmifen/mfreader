@@ -9,8 +9,9 @@ export const appinfo={
 
 //cnblogs授权信息
 export const accessInfo={
-	clientId:"4107ed8d-7c41-4138-9434-069d2aeff5da",
-	clientSecret:"whte9FkHHtt3Z7Wtx0sZf0OosvPAER9vPfNjTTwoSQZ78rOgpYiSKlLtxekd5Sm2MnLyWGDh8qOAUHsC"
+	//这里是博客园申请的api相关信息
+	clientId:"",
+	clientSecret:""
 };
 
 //接口地址
