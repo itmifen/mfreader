@@ -9,16 +9,16 @@ export const appinfo={
 
 //cnblogs授权信息
 export const accessInfo={
-	//这里是博客园申请的api相关信息
-	clientId:"",
-	clientSecret:""
+    clientId:"*********",
+    clientSecret:"*********"
 };
+
 
 //接口地址
 export const dataApi = {
 	token:appinfo.cnblogsApi+"/token",
 	blog:appinfo.cnblogsApi+"/api/blogs/"+appinfo.blogname+"/posts?pageIndex=<%=pageindex%>",
-	blogdetail:"https://api.cnblogs.com/api/blogposts/<%=id%>/body",
-	recommendblog:"https://api.cnblogs.com/api/blogposts/@sitehome?pageIndex=<%=pageindex%>&pageSize=10"
+	blogdetail:appinfo.cnblogsApi+"/api/blogposts/<%=id%>/body",
+	recommendblog:appinfo.cnblogsApi+"/api/blogposts/@sitehome?pageIndex=<%=pageindex%>&pageSize=10"
 };
 
