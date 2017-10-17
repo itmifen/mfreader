@@ -23,6 +23,7 @@ react-native-vector-icons | react native  icon组件
 ### 项目结构  
 
 代码全部在source目录里，其他代码有react native自动生成，当然，index.js相关入口文件有调整，source中目录简单介绍一下：
+
 目录 | 说明
 ---|---
 action | redux中的action
